@@ -1,0 +1,45 @@
+h1, h2, h3, h4, h5 {
+  color: rgb(219, 97, 73);
+}
+
+ol, ul {
+  list-style: initial;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-before: 1em;
+    margin-after: 1em;
+    margin-start: 0;
+    margin-end: 0;
+    padding-start: 40px;
+}
+
+@media print {
+  @page  
+  { 
+      size: auto;   /* auto is the initial value */ 
+
+      /* this affects the margin in the printer settings */ 
+      margin: 25mm 25mm 25mm 25mm;  
+  } 
+  
+  body {
+    width: 3in;
+    overflow: initial;
+    margin: 500mm;
+  }
+  
+  html>body {
+    font-size: 12px;
+  }
+  
+  h1, h2 {
+    page-break-before: always;
+  }
+  
+  h1, h2, h3, h4, h5 {
+    color: rgb(219, 97, 73);
+  }
+}

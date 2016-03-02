@@ -1,0 +1,460 @@
+/* 
+   This document has been created with Marked.app <http://markedapp.com>, Copyright 2011 Brett Terpstra
+   Please leave this notice in place, along with any additional credits below.
+   ---------------------------------------------------------------
+   Title: Bootstragram Marked
+   Author: Your name and optional url
+   Description: Basic description of the theme.
+*/
+/* line 1, ../sass/_marked_default.scss */
+body {
+  -webkit-font-smoothing: antialiased;
+  font: normal .8764em/1.5em Lato, Arial, Verdana, sans-serif;
+  margin: 0 auto;
+  max-width: 45em;
+}
+
+/* line 8, ../sass/_marked_default.scss */
+html > body {
+  font-size: 15px;
+}
+
+/* line 12, ../sass/_marked_default.scss */
+li {
+  font-size: 110%;
+}
+
+/* line 16, ../sass/_marked_default.scss */
+li li {
+  font-size: 100%;
+}
+
+/* line 20, ../sass/_marked_default.scss */
+li p {
+  font-size: 100%;
+  margin: .5em 0;
+}
+
+/* line 25, ../sass/_marked_default.scss */
+h1 {
+  color: #000;
+  font-size: 2.2857em;
+  line-height: .6563em;
+  margin: .6563em 0;
+}
+
+/* line 32, ../sass/_marked_default.scss */
+h2 {
+  color: #111;
+  font-size: 1.7143em;
+  line-height: .875em;
+  margin: .875em 0;
+}
+
+/* line 39, ../sass/_marked_default.scss */
+h3 {
+  color: #111;
+  font-size: 1.5em;
+  line-height: 1em;
+  margin: 1em 0;
+}
+
+/* line 46, ../sass/_marked_default.scss */
+h4 {
+  color: #111;
+  font-size: 1.2857em;
+  line-height: 1.1667em;
+  margin: 1.1667em 0;
+}
+
+/* line 53, ../sass/_marked_default.scss */
+h5 {
+  color: #111;
+  font-size: 1.15em;
+  line-height: 1.3em;
+  margin: 1.3em 0;
+}
+
+/* line 60, ../sass/_marked_default.scss */
+h6 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 1.5em 0;
+}
+
+/* line 66, ../sass/_marked_default.scss */
+body, p, td, div {
+  color: #111;
+  word-wrap: break-word;
+}
+
+/* line 71, ../sass/_marked_default.scss */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5em;
+}
+
+/* line 75, ../sass/_marked_default.scss */
+a {
+  -webkit-transition: color .2s ease-in-out;
+  -moz-transition: color .2s ease-in-out;
+  -o-transition: color .2s ease-in-out;
+  -ms-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
+  color: #0d6ea1;
+  text-decoration: none;
+}
+
+/* line 85, ../sass/_marked_default.scss */
+a:hover {
+  color: #3593d9;
+}
+
+/* line 89, ../sass/_marked_default.scss */
+.footnote {
+  color: #0d6ea1;
+  font-size: .8em;
+  vertical-align: super;
+}
+
+/* line 95, ../sass/_marked_default.scss */
+#wrapper img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 100, ../sass/_marked_default.scss */
+dd {
+  margin-bottom: 1em;
+}
+
+/* line 104, ../sass/_marked_default.scss */
+li > p:first-child {
+  margin: 0;
+}
+
+/* line 108, ../sass/_marked_default.scss */
+ul ul, ul ol {
+  margin-bottom: .4em;
+}
+
+/* line 112, ../sass/_marked_default.scss */
+caption, col, colgroup, table, tbody, td, tfoot, th, thead, tr {
+  border-spacing: 0;
+}
+
+/* line 116, ../sass/_marked_default.scss */
+table {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-collapse: collapse;
+  display: table;
+  empty-cells: hide;
+  margin: -1px 0 23px;
+  padding: 0;
+  table-layout: fixed;
+}
+
+/* line 126, ../sass/_marked_default.scss */
+caption {
+  display: table-caption;
+  font-weight: 700;
+}
+
+/* line 131, ../sass/_marked_default.scss */
+col {
+  display: table-column;
+}
+
+/* line 135, ../sass/_marked_default.scss */
+colgroup {
+  display: table-column-group;
+}
+
+/* line 139, ../sass/_marked_default.scss */
+tbody {
+  display: table-row-group;
+}
+
+/* line 143, ../sass/_marked_default.scss */
+tfoot {
+  display: table-footer-group;
+}
+
+/* line 147, ../sass/_marked_default.scss */
+thead {
+  display: table-header-group;
+}
+
+/* line 151, ../sass/_marked_default.scss */
+td, th {
+  display: table-cell;
+}
+
+/* line 155, ../sass/_marked_default.scss */
+tr {
+  display: table-row;
+}
+
+/* line 159, ../sass/_marked_default.scss */
+table th, table td {
+  font-size: 1.1em;
+  line-height: 23px;
+  padding: 0 1em;
+}
+
+/* line 165, ../sass/_marked_default.scss */
+table thead {
+  background: rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* line 171, ../sass/_marked_default.scss */
+table tbody {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* line 175, ../sass/_marked_default.scss */
+table tfoot {
+  background: rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* line 181, ../sass/_marked_default.scss */
+figure {
+  display: inline-block;
+  position: relative;
+  margin: 1em 0 2em;
+}
+
+/* line 187, ../sass/_marked_default.scss */
+figcaption {
+  font-style: italic;
+  text-align: center;
+  background: white;
+  color: #666;
+  position: absolute;
+  left: 0;
+  bottom: -24px;
+  width: 98%;
+  padding: 1%;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+/* line 204, ../sass/_marked_default.scss */
+figure:hover > figcaption {
+  /* background: rgba(0,0,0,1) */
+}
+
+/* line 208, ../sass/_marked_default.scss */
+.poetry pre {
+  display: block;
+  font-family: Georgia, Garamond, serif !important;
+  font-size: 110% !important;
+  font-style: italic;
+  line-height: 1.6em;
+  margin-left: 1em;
+}
+
+/* line 217, ../sass/_marked_default.scss */
+.poetry pre code {
+  font-family: Georgia, Garamond, serif !important;
+}
+
+/* line 221, ../sass/_marked_default.scss */
+blockquote p {
+  font-size: 110%;
+  font-style: italic;
+  line-height: 1.6em;
+}
+
+/* line 227, ../sass/_marked_default.scss */
+sup, sub, a.footnote {
+  font-size: 1.4ex;
+  height: 0;
+  line-height: 1;
+  position: relative;
+  vertical-align: super;
+}
+
+/* line 235, ../sass/_marked_default.scss */
+sub {
+  vertical-align: sub;
+  top: -1px;
+}
+
+/* line 240, ../sass/_marked_default.scss */
+p, h5 {
+  font-size: 1.1429em;
+  line-height: 1.3125em;
+  margin: 1.3125em 0;
+}
+
+/* line 246, ../sass/_marked_default.scss */
+dt, th {
+  font-weight: 700;
+}
+
+/* line 250, ../sass/_marked_default.scss */
+table tr:nth-child(odd), table th:nth-child(odd), table td:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* line 254, ../sass/_marked_default.scss */
+table tr:nth-child(even), table td:nth-child(even) {
+  background: rgba(200, 200, 200, 0.25);
+}
+
+@media print {
+  /* line 259, ../sass/_marked_default.scss */
+  body {
+    overflow: auto;
+  }
+
+  /* line 263, ../sass/_marked_default.scss */
+  img, pre, blockquote, table, figure, p {
+    page-break-inside: avoid;
+  }
+
+  /* line 267, ../sass/_marked_default.scss */
+  #wrapper {
+    background: #fff;
+    color: #303030;
+    font-size: 85%;
+    padding: 10px;
+    position: relative;
+    text-indent: 0;
+  }
+}
+@media screen {
+  /* line 278, ../sass/_marked_default.scss */
+  .inverted #wrapper, .inverted {
+    background: #252a2a;
+  }
+
+  /* line 282, ../sass/_marked_default.scss */
+  .inverted hr {
+    border-color: #333f40 !important;
+  }
+
+  /* line 286, ../sass/_marked_default.scss */
+  .inverted p, .inverted td, .inverted li, .inverted h1, .inverted h2, .inverted h3, .inverted h4, .inverted h5, .inverted h6, .inverted pre, .inverted code, .inverted th, .inverted .math, .inverted caption, .inverted dd, .inverted dt {
+    color: #eee !important;
+  }
+
+  /* line 290, ../sass/_marked_default.scss */
+  .inverted table tr:nth-child(odd), .inverted table th:nth-child(odd), .inverted table td:nth-child(odd) {
+    background: none;
+  }
+
+  /* line 294, ../sass/_marked_default.scss */
+  .inverted a {
+    color: #acd1d5;
+  }
+
+  /* line 298, ../sass/_marked_default.scss */
+  #wrapper {
+    padding: 20px;
+  }
+
+  /* line 302, ../sass/_marked_default.scss */
+  ::selection {
+    background: rgba(157, 193, 200, 0.5);
+  }
+
+  /* line 306, ../sass/_marked_default.scss */
+  h1::selection {
+    background-color: rgba(45, 156, 208, 0.3);
+  }
+
+  /* line 310, ../sass/_marked_default.scss */
+  h2::selection {
+    background-color: rgba(90, 182, 224, 0.3);
+  }
+
+  /* line 314, ../sass/_marked_default.scss */
+  h3::selection, h4::selection, h5::selection, h6::selection, li::selection, ol::selection {
+    background-color: rgba(133, 201, 232, 0.3);
+  }
+
+  /* line 318, ../sass/_marked_default.scss */
+  code::selection {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #eee;
+  }
+
+  /* line 323, ../sass/_marked_default.scss */
+  code span::selection {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    color: #eee !important;
+  }
+
+  /* line 328, ../sass/_marked_default.scss */
+  a::selection {
+    background-color: rgba(255, 230, 102, 0.2);
+  }
+
+  /* line 332, ../sass/_marked_default.scss */
+  .inverted a::selection {
+    background-color: rgba(255, 230, 102, 0.6);
+  }
+
+  /* line 336, ../sass/_marked_default.scss */
+  td::selection, th::selection, caption::selection {
+    background-color: rgba(180, 237, 95, 0.5);
+  }
+}
+/* line 1, ../sass/_main.scss */
+h1, h2, h3, h4, h5 {
+  color: #db6149;
+}
+
+/* line 5, ../sass/_main.scss */
+ol, ul {
+  list-style: initial;
+}
+
+/* line 9, ../sass/_main.scss */
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-before: 1em;
+  margin-after: 1em;
+  margin-start: 0;
+  margin-end: 0;
+  padding-start: 40px;
+}
+
+@media print {
+  @page {
+    size: auto;
+    /* auto is the initial value */
+    /* this affects the margin in the printer settings */
+    margin: 25mm 25mm 25mm 25mm;
+  }
+  /* line 28, ../sass/_main.scss */
+  body {
+    width: 3in;
+    overflow: initial;
+    margin: 500mm;
+  }
+
+  /* line 34, ../sass/_main.scss */
+  html > body {
+    font-size: 12px;
+  }
+
+  /* line 38, ../sass/_main.scss */
+  h1, h2 {
+    page-break-before: always;
+  }
+
+  /* line 42, ../sass/_main.scss */
+  h1, h2, h3, h4, h5 {
+    color: #db6149;
+  }
+}
